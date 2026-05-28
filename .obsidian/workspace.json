@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "3abed86e129ba0c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8a9538e0b28f68a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd1dda1ab91b51e6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AIML/Midterm.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Midterm"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dc7a561d38a0aad0",
+    "type": "split",
+    "children": [
+      {
+        "id": "09e33e21516ceebf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2a3ac3db094970d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b8837fc02b093b63",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AIML/Midterm.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Midterm"
+            }
+          },
+          {
+            "id": "f70fb67d34d55a32",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fc3dbc40f4e4f56a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "648e56efce6f259b",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd18df0e4e2fb5c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "851a95710f63ecc4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Design and Analysis of Algorithms/Design and Analysis of Algorithms.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Design and Analysis of Algorithms"
+            }
+          },
+          {
+            "id": "6f68c0f92de732b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Probability Theory.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Probability Theory"
+            }
+          },
+          {
+            "id": "750e7c3514a024db",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d215b8306bb82fb3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Probability Theory.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Probability Theory"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "bd1dda1ab91b51e6",
+  "lastOpenFiles": [
+    "Canv1.canvas",
+    "AIML/Midterm.md",
+    "AIML/Quiz 1.md",
+    "Probability Theory.md",
+    "Uni-Note/LICENSE",
+    "Uni-Note",
+    "Database.md",
+    "AIML/ImageFolder/Pasted image 20260528191642.png",
+    "AIML/ImageFolder/Pasted image 20260528183053.png",
+    "AIML/ImageFolder/Pasted image 20260528134028.png",
+    "AIML/ImageFolder/Pasted image 20260507185549.png",
+    "CST308 Computer Architecture/Midterm.md",
+    "Statistic/ImageFolder/Pasted image 20260526110044.png",
+    "Statistic/ImageFolder/Pasted image 20260521174933.png",
+    "Statistic/Formula.md",
+    "Statistic/Midterm Revision ahh.md",
+    "Statistic/ImageFolder/Pasted Image 20260520125846_700.png",
+    "Statistic/ImageFolder/Pasted Image 20260520135053_445.png",
+    "Statistic/ImageFolder/Pasted Image 20260520134135_587.png",
+    "Statistic/ImageFolder/Pasted Image 20260520130154_395.png",
+    "Statistic/Drawing 2026-05-17 19.04.43.excalidraw.md",
+    "Statistic/ImageFolder",
+    "CST308 Computer Architecture",
+    "Untitled.md",
+    "CST309 Computer Network/Quiz 1.md",
+    "Statistic/Midterm Note.md",
+    "Statistic",
+    "Design and Analysis of Algorithms/Design and Analysis of Algorithms.md",
+    "Design and Analysis of Algorithms/Design and Algorithm Final Exam.md",
+    "AIML/ImageFolder",
+    "Untitled.base",
+    "AIML",
+    "CST309 Computer Network",
+    "Probability Formula.md",
+    "Welcome.md",
+    "Design and Analysis of Algorithms/Image"
+  ]
+}

@@ -277,6 +277,8 @@ Sorting our calculated distances from nearest (smallest) to farthest gives us ou
 > **Conclusion:** By majority vote, the new data point $(20, 35)$ is classified as **Red**.
 
 
+# No chap 6 btw
+
 # 7. DECISION TREES, AND ENSEMBLE LEARNING
 Why tree models?
 - Work with mixed data types
@@ -564,9 +566,179 @@ graph LR;
 ### 7.2.4 Learning Techniques
 ![[Pasted image 20260607124544.png]]
 1. Random Forest:
-	Each tree evaluates ==random parts== of the data and their ==results are combined== by voting for classification or averaging for regression. This helps in improving ==accuracy== and ==reducing errors==
+	![[Pasted image 20260607125820.png]]
+	Each tree evaluates ==random parts== of the data and their ==results are combined== by voting for classification or averaging for regression. This helps in improving ==accuracy== and ==reducing errors.== When building each tree it ==doesn’t look at all the features (columns) at once==. It ==picks a few at random== to decide how to ==split the data==. This helps the trees ==stay different== from each other.
 	1. Random forest extend decision tree by:
 		- training many trees
 		- using random subsets of samples
 		- using random subsets of features
-		- combining predictions from many trees
+		- ==combining predictions== from many trees
+	2. Advantages:
+		- ==Accurate predictions== even with large datasets.
+		- Doesn’t require feature scaling
+		- Reduces the risk of overfitting of the model.
+	3. Disadvantages:
+		- ==Computationally expensive==: >> number of trees.
+		- Interpretability becomes harder
+2. GRADIENT BOOSTING MACHINES (GBM)
+	![[Pasted image 20260607133005.png]]
+	GBM build an ensemble of shallow and weak successive trees with each tree learning and  improving on the previous
+	1. Learning rate (n):
+		- ![[Pasted image 20260607135013.png]]
+3. ADABoost
+	![[Pasted image 20260607135506.png]]
+	- ==Combines multiple weak classifiers to build a strong model==. 
+	- It trains models ==sequentially==, each correcting previous errors.
+	- Assigns ==higher weights to misclassified samples==.
+	- Final prediction is made using ==weighted voting==.
+	Limitation:
+	- ==Accuracy increase== when added ==more weak learner== which leads to ==overfitting==
+	- Underperforms in the presence of noise
+	- Slower to train
+	- Hyperparameters is difficult
+	Advantages:
+	- Suited for imbalance dataset
+4. XGBoost (eXtreme Gradient Boosting)
+	extreme version of the previous gradient boosting algorithm. perform better than GBM
+	difference: uses a regularization technique 
+
+
+5. CATBoost
+	Categorical boosting. ==Performs best on categorical datasets==. 
+	- suited for ==large-scale datasets== with many independent features
+	- handle both ==categorical and numerical features seamlessly== 
+	- It uses ==Symmetric Weighted Quantile Sketch== (SWQS) algorithm which helps in handles ==missing values==, ==reduces overfitting== and ==improves model performance==
+	Parameters:
+	- cat_features: An array of indices for categorical features
+	- one_hot_max_size: used for one-hot encoding in a categorical feature.
+	Categorical feature:
+	- Nominal Categorical Features:
+		- No inherent order 
+	- Ordinal Categorical Features:
+		- Categories with a meaningful order (maybe encoded with integer values)
+![[Pasted image 20260607161833.png]]
+
+# 8. SUPPORT VECTOR MACHINE (SVM)
+![[Pasted image 20260607163556.png]]
+Supervised learning algorithm usually used for ==classification tasks==, but can also be adapted to ==regression== and ==outlier detection== tasks.
+Find the optimal hyperplane that maximizes the margin (best line or decision boundary)
+Support vectors: data points or vectors that are the closest to the hyperplane. These vectors support the hyperplane.
+- if there are ==2 features==, then the hyperplane will be a ==straight line==.(1D)
+- If there are ==3 features==, then the hyperplane will be a ==2D plane==.(2D)
+- if there is 1 feature, then hyperplane will be dot (0D)
+
+Ideal Data for SVM:
+- **==Small to Medium==** Datasets(< 100k samples)
+- **==High-Dimensional Data==**
+- **==Clear Margin of Separation==**:Performs optimally when there is a distinct gap between the classes
+- **==Unstructured Data==**: where features outnumber samples.
+
+Avoid SVM if:
+- **==Very Large Datasets**==
+- ==**Noisy or Overlapping Data**==
+- ==**Imbalanced Classes==**
+
+Advantages:
+- **==Effective in High Dimensional Spaces==**
+- **==Memory efficient==**
+- **==Kernel trick versality==**
+- **==Robust to overfitting**==
+
+Disadvantages:
+- ==**High Training time==**
+- **==Difficult to tune==**
+- **==Hard to understand**==
+
+## 8.1 Multiclassification SVM
+SVM can support ==multiclass classification== too, BUT internally it usually combines multiple binary classifiers:
+- ==One vs Rest== (OvR)
+	Final prediction is based on ==highest confidence score==
+	- Class A vs others
+	- Class B vs others
+	- Class C vs others
+- ==One VS One== (OvO)
+	Final prediction is based on ==majority voting==
+	- Class A vs B
+	- Class A vs C
+	- Class B vs C
+
+## 8.2 Type of SVM
+![[Pasted image 20260607171600.png]]
+### 8.2.1 Linear SVM
+- In linear SVM the separating hyperplane is: $w\times x +b=0$
+- margin in SVM is given by: $\huge margin = \frac{1}{||w||}$
+	- This is why SVM tries to minimize ||w|| to maximize the margin
+### 8.2.2 Non-Linear SVM
+To separate these data points, ==one more dimension is added==
+	a third dimension z is added $z = x^2+y^2$ (circle plane)
+![[Pasted image 20260607175906.png]]
+
+## 8.3 SVM Kernel
+![[Pasted image 20260607181101.png]]
+### 8.3.1 Linear Kernel
+Used when data is already linearly separable.
+Advantages:
+- ==Simple==, fast to compute
+- ==Effective for linearly== separable data
+Disadvantages:
+- ==Not suitable== for complex, ==non-linear data==
+
+### 8.3.2 Polynomial Kernel
+Allows for more ==complex decision boundaries== by adding ==polynomial features== to the data.
+Can capture interactions between features up to a certain degree.
+Advantages:
+- Can model interactions between features
+- Suitable for ==non-linearly separable data==
+Disadvantages:
+- ==Not suitable== for complex, ==non-linear data==
+- ==Computationally more expensive== than the linear kernel.
+- ==Risk of overfitting== with high-degree polynomials
+
+### 8.3.3 RBF Kernel (Radial Basis Function) 
+Also known as ==Gaussian kernel==. This kernel can handle ==very complex== and non-linear relationship.
+Advantages:
+- Can handle wide range of data distribution
+- ==Effective in high-dimensional== spaces
+Disadvantages:
+- Requires ==careful tuning== of the ==gamma parameter==
+- ==Computationally more expensive== with large datasets
+Function:
+$$\huge K(x_i,x_j)=e^{-\gamma||x_i-x_j||^2}$$
+Where:
+- Gamma, $\gamma$ controls the influence range
+Smaller distance -> Higher kernel -> Higher similarity
+Larger distance -> Lower kernel -> Lower similarity
+
+## 8.4 Effect of Gamma ($\gamma$)
+$\gamma$ controls how strongly distance affects similarity. Defines the behavior of the decision boundary.
+![[Pasted image 20260607184454.png]]
+Low 𝛾 → Higher kernel → Higher similarity
+High 𝛾 → Lower kernel → Lower similarity
+
+#### Example:
+A SVM model uses RBF Kernel: $\huge K(x_i,x_j)=e^{-\gamma||x_i-x_j||^2}$
+Given: $||x_i-x_j||$ = 1.5
+Calculate the kernel value when:
+- 𝛾 = 0.5
+- 𝛾 = 1.5
+𝜸 = 0.5
+K = 0.3247 (Higher similarity)
+𝜸 = 1.5
+K = 0.0342
+
+### 8.5 How to Choose the Right Kernel
+- **==Data Complexity==**: For ==linearly== separable data, the ==linear kernel== is sufficient. For more ==complex== data, consider ==polynomial or RBF== kernels.
+- ==**Computational Resources**==: RBF and polynomial kernels are computationally more intensive than the linear kernel. Ensure that your computational resources can handle the increased complexity.
+- **==Model Performance==**: Experiment with ==different kernels and use cross-validation== to determine which ==kernel yields the best performance== for your specific problem.
+
+# 9. ARTIFICIAL NEURAL NETWORKS (ANN) & MULTILAYER PERCEPTRON (MLP)
+![[Pasted image 20260607222748.png]]
+Interconnected artificial neurons to learn pattern from data and make predictions.
+Node layer of ANN consist:
+- ==input layer==: ==accept input== from outside environment. Receive the data it needs to process
+- three or more ==hidden layer==: ==Complex computation happen==
+- ==output layer==: ==Answer== or prediction
+## 9.1 Single-Layer NN (Perceptron)
+Consists of an ==**input layer and an output neuron**==.
+Fundamental model for ==binary classification problems==.
+single-layer perceptron ==cannot solve non-linearly separable== problems like **XOR**

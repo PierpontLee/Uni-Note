@@ -87,13 +87,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CST309 Computer Network/CNC Midterm.md",
+                "file": "AIML/AML Midterm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CNC Midterm"
+              "title": "Outline of AML Midterm"
             }
           },
           {
@@ -122,83 +122,6 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 200
-  },
-  "right": {
-    "id": "648e56efce6f259b",
-    "type": "split",
-    "children": [
-      {
-        "id": "dd18df0e4e2fb5c2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "851a95710f63ecc4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Design and Analysis of Algorithms/Design and Analysis of Algorithms.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Design and Analysis of Algorithms"
-            }
-          },
-          {
-            "id": "6f68c0f92de732b0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Probability Theory.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Probability Theory"
-            }
-          },
-          {
-            "id": "750e7c3514a024db",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "d215b8306bb82fb3",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Probability Theory.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Probability Theory"
-            }
           },
           {
             "id": "3f145f846dce4f6f",
@@ -215,7 +138,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
+  },
+  "right": {
+    "id": "648e56efce6f259b",
+    "type": "split",
+    "children": [
+      {
+        "id": "27e8f78aa5183782",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18c5ad1ab8c37980",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AIML/AML Midterm.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AML Midterm"
+            }
+          },
+          {
+            "id": "90ee1bc533a60476",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AIML/AML Midterm.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AML Midterm"
+            }
+          },
+          {
+            "id": "3cb1e88f776c61ea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 377.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,26 +216,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd1dda1ab91b51e6",
+  "active": "3f145f846dce4f6f",
   "lastOpenFiles": [
+    "Pasted image 20260607222748.png",
     "CST308 Computer Architecture/ComArchMidterm.md",
-    "AIML/ImageFolder/Pasted image 20260607124544.png",
     "AIML/AML Midterm.md",
+    "Pasted image 20260607184454.png",
+    "Pasted image 20260607183813.png",
+    "Pasted image 20260607181101.png",
+    "Pasted image 20260607175906.png",
+    "Pasted image 20260607171600.png",
+    "Pasted image 20260607163556.png",
+    "Pasted image 20260607161833.png",
+    "Pasted image 20260607135506.png",
+    "Pasted image 20260607135013.png",
+    "Pasted image 20260607133005.png",
     "CST401 Software Engineering/SE Midterm.md",
-    "CST309 Computer Network/Image/Pasted image 20260604231615.png",
     "CST309 Computer Network/CNC Midterm.md",
     "CST309 Computer Network/Image",
     "Untitled.base",
     "Probability Formula.md",
     "Probability Theory.md",
-    "CST309 Computer Network/Image/Pasted image 20260604231604.png",
-    "CST309 Computer Network/Image/Pasted image 20260604173404.png",
-    "CST309 Computer Network/Image/Pasted image 20260604164004.png",
-    "CST309 Computer Network/Image/Pasted image 20260604161414.png",
-    "CST309 Computer Network/Image/Pasted image 20260604154807.png",
-    "CST309 Computer Network/Image/Pasted image 20260604151341.png",
-    "CST309 Computer Network/Image/Pasted image 20260604135436.png",
-    "imgTemp/Pasted image 20260602170847.png",
     "imgTemp",
     "CST309 Computer Network/Quiz 1.md",
     "CST401 Software Engineering",

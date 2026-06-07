@@ -488,6 +488,18 @@ Ensemble learning might improve:
 - Stability
 - Generalization
 
+Disadvantages;
+- Large models becomes hard to explain (reduced interpretability)
+- Higher computational cost
+- More complex deployment
+- Diminishing returns
+
+Ideal dataset:
+- Large
+- Has noise
+- Feature interaction are complex
+- Non linear relationship exist
+- Predictive performance prioritized over interpretability
 ### 7.2.3 Type
 #### Bagging (Bootstrap Aggregating)
 ```mermaid
@@ -549,3 +561,12 @@ graph LR;
 - Multiple ==different models are trained== and ==their predictions are used as inputs== to a final model, called a ==meta-model==.
 - The meta-model learns ==how to best combine the predictions== of the base models, aiming for ==better performance than any individual model==.
 
+### 7.2.4 Learning Techniques
+![[Pasted image 20260607124544.png]]
+1. Random Forest:
+	Each tree evaluates ==random parts== of the data and their ==results are combined== by voting for classification or averaging for regression. This helps in improving ==accuracy== and ==reducing errors==
+	1. Random forest extend decision tree by:
+		- training many trees
+		- using random subsets of samples
+		- using random subsets of features
+		- combining predictions from many trees

@@ -14,13 +14,45 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AIML/Midterm.md",
+                "file": "AIML/AML Midterm.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Midterm"
+              "title": "AML Midterm"
+            }
+          },
+          {
+            "id": "b76ab0e63fbac7d1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CST401 Software Engineering/SE Midterm.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "SE Midterm"
+            }
+          },
+          {
+            "id": "013acf22bb90558c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CST308 Computer Architecture/ComArchMidterm.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "ComArchMidterm"
             }
           }
         ]
@@ -55,13 +87,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AIML/Midterm.md",
+                "file": "CST309 Computer Network/CNC Midterm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Midterm"
+              "title": "Outline of CNC Midterm"
             }
           },
           {
@@ -167,13 +199,23 @@
               "icon": "lucide-list",
               "title": "Outline of Probability Theory"
             }
+          },
+          {
+            "id": "3f145f846dce4f6f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,41 +232,43 @@
   },
   "active": "bd1dda1ab91b51e6",
   "lastOpenFiles": [
-    "Canv1.canvas",
-    "AIML/Midterm.md",
-    "AIML/Quiz 1.md",
+    "CST308 Computer Architecture/ComArchMidterm.md",
+    "AIML/ImageFolder/Pasted image 20260607124544.png",
+    "AIML/AML Midterm.md",
+    "CST401 Software Engineering/SE Midterm.md",
+    "CST309 Computer Network/Image/Pasted image 20260604231615.png",
+    "CST309 Computer Network/CNC Midterm.md",
+    "CST309 Computer Network/Image",
+    "Untitled.base",
+    "Probability Formula.md",
     "Probability Theory.md",
+    "CST309 Computer Network/Image/Pasted image 20260604231604.png",
+    "CST309 Computer Network/Image/Pasted image 20260604173404.png",
+    "CST309 Computer Network/Image/Pasted image 20260604164004.png",
+    "CST309 Computer Network/Image/Pasted image 20260604161414.png",
+    "CST309 Computer Network/Image/Pasted image 20260604154807.png",
+    "CST309 Computer Network/Image/Pasted image 20260604151341.png",
+    "CST309 Computer Network/Image/Pasted image 20260604135436.png",
+    "imgTemp/Pasted image 20260602170847.png",
+    "imgTemp",
+    "CST309 Computer Network/Quiz 1.md",
+    "CST401 Software Engineering",
+    "ComArc.md",
+    "Canv1.canvas",
+    "AIML/Quiz 1.md",
     "Uni-Note/LICENSE",
     "Uni-Note",
     "Database.md",
-    "AIML/ImageFolder/Pasted image 20260528191642.png",
-    "AIML/ImageFolder/Pasted image 20260528183053.png",
-    "AIML/ImageFolder/Pasted image 20260528134028.png",
-    "AIML/ImageFolder/Pasted image 20260507185549.png",
-    "CST308 Computer Architecture/Midterm.md",
-    "Statistic/ImageFolder/Pasted image 20260526110044.png",
-    "Statistic/ImageFolder/Pasted image 20260521174933.png",
     "Statistic/Formula.md",
     "Statistic/Midterm Revision ahh.md",
-    "Statistic/ImageFolder/Pasted Image 20260520125846_700.png",
-    "Statistic/ImageFolder/Pasted Image 20260520135053_445.png",
-    "Statistic/ImageFolder/Pasted Image 20260520134135_587.png",
-    "Statistic/ImageFolder/Pasted Image 20260520130154_395.png",
     "Statistic/Drawing 2026-05-17 19.04.43.excalidraw.md",
     "Statistic/ImageFolder",
     "CST308 Computer Architecture",
-    "Untitled.md",
-    "CST309 Computer Network/Quiz 1.md",
     "Statistic/Midterm Note.md",
     "Statistic",
     "Design and Analysis of Algorithms/Design and Analysis of Algorithms.md",
     "Design and Analysis of Algorithms/Design and Algorithm Final Exam.md",
     "AIML/ImageFolder",
-    "Untitled.base",
-    "AIML",
-    "CST309 Computer Network",
-    "Probability Formula.md",
-    "Welcome.md",
-    "Design and Analysis of Algorithms/Image"
+    "Welcome.md"
   ]
 }

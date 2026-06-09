@@ -40,4 +40,39 @@ $$\huge n = \frac{ExTime_Y}{ExTime_X}=\frac{Performance_X}{Performance_Y}$$
 	- n: number of instruction classes
 	- IC_i: is the count of the number of instructions of class i executed
 7. $CPU\:Time = CPU\:clock\: cycles\: for\: a\: program \times Clock\: cycle\: time$
-8. 
+
+### Example 1
+Given:
+- Frequency of floating-point (FP) operations = 25%
+- Average CPI of floating-point operations = 4.0
+- Average CPI for other instructions = 1.33
+- Frequency of floating-point square root (FPSQR) = 2%
+- CPI for FPSQR = 20
+- Note: FPSQR operations are a subset of FP operations
+Assume that the two design alternatives: 
+- reduce the CPI of FPSQR to 2, or
+- reduce the average CPI of all FP operations to 2. 
+Question: Compare these two design alternatives using the CPU performance equation.
+
+Answer: 
+1. Step 1: Analyze base system
+Split into 2 main categories ==Floating Point (FP)== operation and ==other== instruction
+Other Instruction:
+- Frequency of other instruction: 100% - 25% = 75%
+- Average CPI = 1.33
+FP Instruction:
+- Frequency of FP = 25%
+- Average CPI = 4
+	_Note:_ The problem mentions Floating-Point Square Root ($\text{FPSQR}$) is a subset ($2\%$) of the total instructions. For calculating the baseline, we can just use the overall FP average ($4.0$) because it already includes $\text{FPSQR}$. (later tanya vincent !!!)
+
+Overall CPI Baseline:
+$$\begin{align}
+CPI_{baseline}&=(Freq_{FP} \times CPI_{FP})+(Freq_{Other}\times CPI_{Other})\\
+&=(0.25\times 4)+(0.75\times 1.33)\\
+&=1+0.9975\\
+&=1.9975
+\end{align}
+$$
+2. Step 2: Evaluate Alternative 1
+reduce the CPI of FPSQR to 2
+FPS

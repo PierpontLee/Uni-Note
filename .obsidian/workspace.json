@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd1dda1ab91b51e6",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AIML/AML Midterm.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "AML Midterm"
-            }
-          },
-          {
             "id": "b76ab0e63fbac7d1",
             "type": "leaf",
             "pinned": true,
@@ -87,13 +71,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AIML/AML Midterm.md",
+                "file": "CST401 Software Engineering/SE Midterm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AML Midterm"
+              "title": "Outline of SE Midterm"
             }
           },
           {
@@ -218,9 +202,11 @@
   },
   "active": "3f145f846dce4f6f",
   "lastOpenFiles": [
-    "Pasted image 20260607222748.png",
+    "CST401 Software Engineering/SE Midterm.md",
     "CST308 Computer Architecture/ComArchMidterm.md",
     "AIML/AML Midterm.md",
+    "README.md",
+    "Pasted image 20260607222748.png",
     "Pasted image 20260607184454.png",
     "Pasted image 20260607183813.png",
     "Pasted image 20260607181101.png",
@@ -230,8 +216,6 @@
     "Pasted image 20260607161833.png",
     "Pasted image 20260607135506.png",
     "Pasted image 20260607135013.png",
-    "Pasted image 20260607133005.png",
-    "CST401 Software Engineering/SE Midterm.md",
     "CST309 Computer Network/CNC Midterm.md",
     "CST309 Computer Network/Image",
     "Untitled.base",

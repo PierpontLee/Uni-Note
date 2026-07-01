@@ -8,35 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b76ab0e63fbac7d1",
+            "id": "d873d3dc210fb984",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CST401 Software Engineering/SE Midterm.md",
+                "file": "Statistic/FormulaFinalExam.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "SE Midterm"
-            }
-          },
-          {
-            "id": "013acf22bb90558c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CST308 Computer Architecture/ComArchMidterm.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "ComArchMidterm"
+              "title": "FormulaFinalExam"
             }
           }
         ]
@@ -117,8 +99,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,26 +181,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f145f846dce4f6f",
+  "active": "d873d3dc210fb984",
   "lastOpenFiles": [
     "CST401 Software Engineering/SE Midterm.md",
+    "Statistic/FormulaFinalExam.md",
     "CST308 Computer Architecture/ComArchMidterm.md",
+    "Probability Formula.md",
+    "AIML/ImageFolder/Pasted image 20260607222748.png",
+    "AIML/ImageFolder/Pasted image 20260607171600.png",
+    "AIML/ImageFolder/Pasted image 20260607163556.png",
+    "AIML/ImageFolder/Pasted image 20260607135506.png",
+    "AIML/ImageFolder/Pasted image 20260607135013.png",
+    "AIML/ImageFolder/Pasted image 20260607133005.png",
+    "AIML/ImageFolder/Pasted image 20260607125820.png",
+    "AIML/ImageFolder/Pasted image 20260607184454.png",
+    "AIML/ImageFolder/Pasted image 20260607181101.png",
     "AIML/AML Midterm.md",
     "README.md",
-    "Pasted image 20260607222748.png",
-    "Pasted image 20260607184454.png",
     "Pasted image 20260607183813.png",
-    "Pasted image 20260607181101.png",
-    "Pasted image 20260607175906.png",
-    "Pasted image 20260607171600.png",
-    "Pasted image 20260607163556.png",
-    "Pasted image 20260607161833.png",
-    "Pasted image 20260607135506.png",
-    "Pasted image 20260607135013.png",
     "CST309 Computer Network/CNC Midterm.md",
     "CST309 Computer Network/Image",
     "Untitled.base",
-    "Probability Formula.md",
     "Probability Theory.md",
     "imgTemp",
     "CST309 Computer Network/Quiz 1.md",

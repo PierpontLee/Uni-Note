@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f8a9538e0b28f68a",
+        "id": "bedd3632860adc33",
         "type": "tabs",
         "children": [
           {
-            "id": "d873d3dc210fb984",
+            "id": "af318a654c72d19d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,6 +18,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "FormulaFinalExam"
             }
@@ -53,13 +55,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CST401 Software Engineering/SE Midterm.md",
+                "file": "Statistic/FormulaFinalExam.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SE Midterm"
+              "title": "Outline of FormulaFinalExam"
             }
           },
           {
@@ -119,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AIML/AML Midterm.md",
+                "file": "Statistic/FormulaFinalExam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AML Midterm"
+              "title": "Backlinks for FormulaFinalExam"
             }
           },
           {
@@ -138,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AIML/AML Midterm.md",
+                "file": "Statistic/FormulaFinalExam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AML Midterm"
+              "title": "Outgoing links from FormulaFinalExam"
             }
           },
           {
@@ -165,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -181,26 +183,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d873d3dc210fb984",
+  "active": "af318a654c72d19d",
   "lastOpenFiles": [
-    "CST401 Software Engineering/SE Midterm.md",
-    "Statistic/FormulaFinalExam.md",
-    "CST308 Computer Architecture/ComArchMidterm.md",
-    "Probability Formula.md",
-    "AIML/ImageFolder/Pasted image 20260607222748.png",
-    "AIML/ImageFolder/Pasted image 20260607171600.png",
-    "AIML/ImageFolder/Pasted image 20260607163556.png",
-    "AIML/ImageFolder/Pasted image 20260607135506.png",
-    "AIML/ImageFolder/Pasted image 20260607135013.png",
-    "AIML/ImageFolder/Pasted image 20260607133005.png",
-    "AIML/ImageFolder/Pasted image 20260607125820.png",
-    "AIML/ImageFolder/Pasted image 20260607184454.png",
-    "AIML/ImageFolder/Pasted image 20260607181101.png",
-    "AIML/AML Midterm.md",
     "README.md",
-    "Pasted image 20260607183813.png",
+    "Statistic/FormulaFinalExam.md",
+    "Statistic/Midterm Revision ahh.md",
+    "CST401 Software Engineering/SE Final Rev.md",
+    "CST309 Computer Network/CNC Final.md",
+    "CST308 Computer Architecture/ComArch Final Revision.md",
+    "Pasted image 20260725200515.png",
+    "Statistic/Formula.md",
+    "Pasted image 20260726004802.png",
+    "Pasted image 20260726004631.png",
+    "Pasted image 20260725200626.png",
+    "Pasted image 20260725200425.png",
+    "CST401 Software Engineering/ImageFolder/Pasted image 20260719210246.png",
+    "CST401 Software Engineering/ImageFolder/Pasted image 20260719153533.png",
     "CST309 Computer Network/CNC Midterm.md",
-    "CST309 Computer Network/Image",
+    "CST401 Software Engineering/ImageFolder/Pasted image 20260719184306.png",
+    "CST401 Software Engineering/ImageFolder/Pasted image 20260719183730.png",
+    "CST401 Software Engineering/ImageFolder/Pasted image 20260719183530.png",
+    "CST401 Software Engineering/ImageFolder",
+    "CST308 Computer Architecture/ComArchMidterm.md",
+    "Statistic/Drawing 2026-05-17 19.04.43.excalidraw.md",
+    "CST401 Software Engineering/SE Midterm.md",
+    "Probability Formula.md",
+    "AIML/AML Midterm.md",
+    "CST309 Computer Network/ImageFolder",
     "Untitled.base",
     "Probability Theory.md",
     "imgTemp",
@@ -212,16 +221,12 @@
     "Uni-Note/LICENSE",
     "Uni-Note",
     "Database.md",
-    "Statistic/Formula.md",
-    "Statistic/Midterm Revision ahh.md",
-    "Statistic/Drawing 2026-05-17 19.04.43.excalidraw.md",
     "Statistic/ImageFolder",
     "CST308 Computer Architecture",
     "Statistic/Midterm Note.md",
     "Statistic",
     "Design and Analysis of Algorithms/Design and Analysis of Algorithms.md",
     "Design and Analysis of Algorithms/Design and Algorithm Final Exam.md",
-    "AIML/ImageFolder",
     "Welcome.md"
   ]
 }

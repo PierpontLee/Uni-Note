@@ -101,7 +101,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -183,26 +184,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af318a654c72d19d",
+  "active": "3f145f846dce4f6f",
   "lastOpenFiles": [
-    "README.md",
+    "Statistic/ImageFolder/Pasted image 20260727230847.png",
     "Statistic/FormulaFinalExam.md",
+    "Statistic/ImageFolder/Pasted image 20260728152539.png",
+    "Statistic/ImageFolder/Pasted image 20260728015625.png",
+    "Statistic/ImageFolder/Pasted image 20260728000241.png",
+    "Statistic/ImageFolder/Pasted image 20260725200425.png",
+    "Statistic/ImageFolder/Pasted image 20260727214810.png",
+    "Statistic/ImageFolder/Pasted image 20260727005936.png",
+    "Statistic/ImageFolder/Pasted image 20260726214454.png",
+    "Statistic/ImageFolder/Pasted image 20260726171248.png",
+    "Statistic/ImageFolder/Pasted image 20260726171227.png",
+    "README.md",
     "Statistic/Midterm Revision ahh.md",
     "CST401 Software Engineering/SE Final Rev.md",
     "CST309 Computer Network/CNC Final.md",
     "CST308 Computer Architecture/ComArch Final Revision.md",
-    "Pasted image 20260725200515.png",
     "Statistic/Formula.md",
-    "Pasted image 20260726004802.png",
-    "Pasted image 20260726004631.png",
-    "Pasted image 20260725200626.png",
-    "Pasted image 20260725200425.png",
-    "CST401 Software Engineering/ImageFolder/Pasted image 20260719210246.png",
-    "CST401 Software Engineering/ImageFolder/Pasted image 20260719153533.png",
     "CST309 Computer Network/CNC Midterm.md",
-    "CST401 Software Engineering/ImageFolder/Pasted image 20260719184306.png",
-    "CST401 Software Engineering/ImageFolder/Pasted image 20260719183730.png",
-    "CST401 Software Engineering/ImageFolder/Pasted image 20260719183530.png",
     "CST401 Software Engineering/ImageFolder",
     "CST308 Computer Architecture/ComArchMidterm.md",
     "Statistic/Drawing 2026-05-17 19.04.43.excalidraw.md",

@@ -101,8 +101,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,7 +183,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f145f846dce4f6f",
+  "active": "f2a3ac3db094970d",
   "lastOpenFiles": [
     "Statistic/ImageFolder/Pasted image 20260727230847.png",
     "Statistic/FormulaFinalExam.md",

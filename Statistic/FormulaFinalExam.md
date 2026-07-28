@@ -1,5 +1,5 @@
-Reject $H_o$ meaning "There is **sufficient** evidence to conclude that... ($H_a$ in context)"
-Fail to reject $H_o$ "There is **insufficient** evidence to conclude that... ($H_a$, in context)"
+Reject $H_o$ meaning "There is **Enough** evidence to conclude that... ($H_a$ in context)"
+Fail to reject $H_o$ "There is **Not Enough** evidence to conclude that... ($H_a$, in context)"
 
 confidence level to z score
 ![[Pasted image 20260526110044.png]]
@@ -24,14 +24,14 @@ confidence level to z score
 ---
 
 ## Chap 12 
-### Linear Probabilistic Model (27 -31, 33)
+### Linear Probabilistic Model (27 -31)
 ![[Pasted image 20260725200515.png]]
 ![[Pasted image 20260725200626.png]]
-### Coefficient of determination
+### Coefficient of determination (33)
 ![[Pasted image 20260726004631.png]]
 ![[Pasted image 20260726004802.png]]
 
-### T-test and T interval for $\beta_1$
+### T-test and T interval for $\beta_1$ (need to remember)
 ![[Pasted image 20260726122607.png]]
 ### CI for $\mu_Y$, and the expected value of Y when $x=x^*$ 
 Keyword: =="true average"==

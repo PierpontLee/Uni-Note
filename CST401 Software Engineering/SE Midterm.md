@@ -10,963 +10,473 @@
 
 ### memorization shit
 1. Software : product built and supported over long time
-    - ==Instructions== : executed provide desired features, etc.
-    - ==Data structures== : programs to ==store and manipulate information==
-    - ==Documentation== : operation and ==use of program==
+    - ==Instructions== : executed provide desired features, etc. (BRAIN)
+    - ==Data structures== : programs to ==store and manipulate information== (MEMORY)
+    - ==Documentation== : operation and ==use of program== (MANUAL)
 
-2.  Attributes of good software : required function and performance for user
+1.  Attributes of good software : required function and performance for user (==MDEAR==)
     - ==Maintainability== : changing needs
     - ==Dependability and security== : no damage in system failure, evil users no enter yes
     - ==Efficiency==: responsive, process time, memory utile
     - ==Acceptability== : understandable, usable, compatible
-    + ==Reusable==
-
-  
+   + ==Reusable==
 
 3. Software Development 
-
-    - Set of CS activities in creating, designing, deploying and supporting software by software engineers (build software for users)
-
-  
+    - Set of CS activities in ==creating, designing, deploying and supporting== software by software engineers (build software for users)
 
 4. Software products
-
-    - Generic : marketed and sold to any customer (word editing)
-
-    - Customized : commissioned by specific customer to meet their needs (inventory control / management)
-
-  
+    - ==Generic== : marketed and sold to ==any== customer (word editing)
+    - ==Customized== : commissioned by ==specific== customer to meet their needs (inventory control / management)
 
 5. Why is software important?
-
     - Dependent on software and systems software controlled
 
-  
-
-6. Software Application
-
-    - System software : utilities (compilers, editors, file management)
-
-    - Application software : specific needs
-
-    - Engineering / Scientific software : number crunching
-
-    - Embdedded software : within systems 
-
-    - Product-line software : limited marketplace for mass consumers 
-
-        (word, database, graphic)
-
-    - WebApps : network centric software. web 2.0 supports remote database and business
-
-    - AI : non-numerical solve complex 
-
-  
+1. Software Application (Application type)
+    - System software : ==utilities== (compilers, editors, file management)
+    - Application software : ==specific== needs
+    - Engineering / ==Scientific software== : number crunching
+    - ==Embedded== software : within systems 
+    - Product-line software : limited marketplace for ==mass consumers== (word, database, graphic)
+    - ==WebApps== : network centric software. web 2.0 supports remote database and business
+    - ==AI== : non-numerical solve complex  
 
 7. Software engineering : engineering discipline for software production
-
     - system is all computer, software just software
-
     - CS for theory fundamentals, SWE development 
 
   
 
-## Layered Technology 
-
-  
-
+## Layered Technology (C.P.M.C.D)
 - Quality : continuous process improvement, providing integrity (security)
-
 - Process : base layer binding all layers for development before deadline
-
     - Generic Process Framework:
-
-        - Communication -> planning -> modeling -> construction -> deployment 
-
+        - ==Communication -> planning -> modeling -> construction -> deployment== 
         - Communication : talk with customer for objective, requirements
-
         - Planning : map for tasks, risks, resources, schedule
-
         - Modeling : sketch (from communication) for understanding
-
-        - Consturction : coding, testing
-
+        - Construction : coding, testing
         - Deployment : delivery, feedback
-
 - Method : todo software, information of all tasks above (process)
-
 - Tools: self-operating system for process used by one another
-
-  
-
 Software process : adaptable collection of activities to choose appropriately
-
-    - purpose : deliver in time and quality for users
-
-  
+   - purpose : deliver in time and quality for users
 
 ### Umbrella Activities
-
-  
-
-Activities by team to maintain process, quality, changes and risks of tasks
-
-  
-
-Process : 
-
-- Software project tracking and control : assess progress plan
-
-- Risk management : assess risk
-
-- Software quality assurance : ensure quality
-
-- Technical reviews : assess work for error
-
-- Measurement : collect progress measure for user
-
-- Software configuration management : manage configuration 
-
-- Reusability management : reuse criteria, mechanism for reusable component
-
-- Work product preparation and production : create work product (models, documentation, logs, forms)
-
-  
-
-----------
-
-  
-
-## Chapter 2 
-
-  
-
-### SDLC Software Development Life Cycle
-
-  
-
-Structured process for high-quality low-cost software in shortest time
-
-  
-
-Goal : produce good software meet customer demands
-
-  
-
-Why important : standardized framework, aiding project scheduling and control with better speed, client relation and risks
-
-  
-
-Process:
-
-- Planning : gathering business requirements from clients
-
-- Analysis : outline scope and requirements of problem and solutions from planning
-
-    - Software requirement specification (SRS) is all requirements to be developed and guideline of next phase
-
-  
-
-- Design : approval before developemnt
-
-    - Software design document (SDD) is system design, language, platform, security, etc. (also plan and vision with flowchart)
-
-    - Prototype visualize product and make changes
-
-    - System flowchart
-
-    - Database design with ERD/DFD
-
-    - Timeline
-
-  
-
-- Implementation / Development
-
-    - Longest, code, work divided in modules with testing
-
-  
-
-- Testing & integration 
-
-    - Tested for requirements phase, perform Software Testing Life Cycle finding bugs & fixes meeting SRS quality
-
-    - Integration : deliver to client for beta testing, additional changes, then final
-
-    - Types
-
-        - Performance 
-
-        - Functional 
-
-        - Security 
-
-        - Unit-testing
-
-        - Usability 
-
-        - Acceptance 
-
-  
-
-- Maintenance 
-
-    - actual problems, agile approach for maintenance futher improvement 
-
-    - SDLC restart for new features,  update
-
-  
-
-### Agile Testing
-
-  
-
-Iterative development methodology to deliver faster
-
-  
-
-Continuously develop where testing and feedback in any stage without waiting to finish  
-
-  
-
-### Testing Approach
-
-  
-
-- Black-box / Behavior testing : 
-
-    - external behavior without internal by tester
-
-    - fastest
-
-    - In system / acceptance testing, called data-driven / functional / closed box
-
-  
-
-- White-box / Logic testing : 
-
-    - software with its internal function
-
-    - slowest 
-
-    - In unit / integration testing, called clear box / non-functional / code based / structural / transparent
-
-    - For algorithm testing
-
-  
-
-### Types of testing
-
-  
-
-- Functional (verifies features) : Unit, integration, system, smoke, interface, regression, beta/acceptance testing
-
-- Non-functional (verfies behaviors) : Performance, load, volume, security, compatibility, installation, recovery, reliability, usability
-
-  
-
-### Verification and Validation
-
-  
-
-Verfication : determine software meet specified requirement 
-
-  
-
-Validation : determine software meet clien't true needs 
-
-  
-
-Scientists (theorems, algorithms, languages), Engineer (application, using tools, techniques), software engineer (multiple domains)
-
-  
+Activities by team to ==maintain process, quality, changes and risks== of tasks
+Process: 
+- Software project ==tracking and control==: assess progress plan
+- ==Risk management==: assess risk
+- Software quality assurance: ==ensure quality==
+- Technical reviews : assess work for ==error==
+- ==Measurement== : collect progress measure for user
+- Software ==configuration== management : manage configuration 
+- ==Reusability== management : reuse criteria, mechanism for reusable component
+- Work ==product preparation and production== : create work product (models, documentation, logs, forms)
 
 ---
 
-  
+## Chapter 2 
+### SDLC ==Software Development Life Cycle== (**P**lease **A**lways **D**o **I**t **T**o **M**aximize) [PADITM]
+1. Structured process for ==high-quality low-cost== software in shortest time
+2. Goal : produce ==good software meet customer demands==
+3. Why important : standardized framework, aiding project scheduling and control with better speed, client relation and risks
+
+Process:
+- ==Planning== : gathering business requirements from clients
+- ==Analysis== : outline scope and requirements of problem and solutions from planning
+    - Software requirement specification (SRS) is all requirements to be developed and guideline of next phase
+- ==Design== : approval before developemnt
+    - Software design document (SDD) is system design, language, platform, security, etc. (also plan and vision with flowchart)
+    - Prototype visualize product and make changes
+    - System flowchart
+    - Database design with ERD/DFD
+    - Timeline
+- ==Implementation== / Development
+    - Longest, code, work divided in modules with testing
+- ==Testing & integration== 
+    - Tested for requirements phase, perform Software Testing Life Cycle finding bugs & fixes meeting SRS quality
+    - Integration : deliver to client for beta testing, additional changes, then final
+    - Types
+        - Performance 
+        - Functional 
+        - Security 
+        - Unit-testing
+        - Usability 
+        - Acceptance
+- ==Maintenance== 
+    - actual problems, agile approach for maintenance further improvement 
+    - SDLC restart for new features,  update
+    - 
+### Agile Testing
+Iterative development methodology to deliver faster
+Continuously develop where testing and feedback in any stage without waiting to finish  
+### Testing Approach
+- ==Black-box / Behavior testing== : 
+    - external behavior without internal by tester
+    - fastest
+    - In system / acceptance testing, called data-driven / functional / closed box
+
+- ==White-box / Logic testing== :  (internal fucntion checking)
+    - software with its internal function
+    - slowest 
+    - In unit / integration testing, called clear box / non-functional / code based / structural / transparent
+    - For algorithm testing
+
+### Types of testing
+- ==Functional== (verifies ==features==) : Unit, integration, system, smoke, interface, regression, beta/acceptance testing
+- ==Non-functional== (verifies ==behaviors==) : Performance, load, volume, security, compatibility, installation, recovery, reliability, usability
+
+### Verification and Validation
+Verification : determine software meet specified requirement 
+Validation : determine software meet client's true needs 
+Scientists (theorems, algorithms, languages), Engineer (application, using tools, techniques), software engineer (multiple domains)
+
+---
 
 ## Chapter 3 
 
-  
-
 ### SDLC Models
-
-  
-
 Framework with how phases are organized and executed
-
-  
-
 Why? : clear structure, better communication, controlled development  else error, failure, unorganized, misunderstood requirements
-
-  
-
 Why choose correct? : project cost, time, quality, user satisfaction
-
-  
-
 - Groups:
-
-    - Linear Model (fixed sequence, waterfall)
-
-    - Iterative Model (repeat develop cycle, incremental, spiral)
-
-    - Agile Model (flexible, adaptive, continuous feedback)
-
-  
-
+    - ==Linear Model== (fixed sequence, waterfall)
+    - ==Iterative Model== (==repeat== develop cycle, incremental, spiral)
+    - ==Agile Model== (flexible, ==adaptive==, continuous feedback)
 - Types:
-
     - Waterfall Model 
-
     - Incremental Model
-
     - Spiral Model
-
     - Agile Model
-
-  
-
 ### Waterfall Model
-
-  
-
 - Linear, Simple, Rigid
-
-- One phase to another, no go back
-
-  
-
+- ==One phase to another, no go back==
 - Usage : clear requirements, simple, no frequent changes
-
-  
-
 - Advantage
-
     - Easy understand, manage
-
     - Clear structure, documentation
-
     - For small, simple project
-
 - Limitation
-
     - Difficult changes
-
     - Late testing
-
     - High risk wrong requirements
-
-  
-
 > ex : Government system
-
-  
-
 ### Incremental & Iterative
-
-  
-
-Develop system in small parts / repeated cycles. Each increment / cycle add new features, working version. Flexible
-
-  
-
+==Develop system in small parts / repeated cycles. Each increment / cycle add new features==, working version. Flexible
 Incremental : new features, expands
-
 Iterative : improve existing, refines 
-
-  
-
 - Advantage 
-
     - Early delivery
-
     - Easier testing and debugging
-
     - Customer feedback
-
-  
-
 - Limitation: 
-
     - Need planning
-
     - Difficult integration
-
-  
-
 ### Spiral Model
-
-  
-
-Combines iterative and risk management, happens in cycles/spiral 
-
-  
-
+Combines ==iterative and risk management==, happens in cycles/spiral 
 - Usage : large systems, high risks
-
     - Identify early risks
-
     - Reduce risks before dev
-
-  
-
 - Advantage: 
-
     - Strong risk management
-
     - Large and complex
-
-  
-
 - Limitations:
-
     - Expensive
-
     - Complex to manage
-
     - Expertise
-
-  
-
 > ex: Banking systems
-
-  
-
 ### Agile Model
-
-  
-
-Flexible, fast and iterative model in short cycles / sprints with continuous testing
-
-  
-
+==Flexible, fast and iterative model in short cycles== / sprints with continuous testing
 Agile principles:
-
 - Customer collaboration
-
 - Continuous feedback
-
 - Adapt to changes
-
-  
-
 - Usage: changing requirements, fast-paced
-
-  
-
 > ex: Mobile apps
-
-  
-
 - Advantage
-
     - Fast delivery
-
     - changing requirements
-
     - Continuous feedback
-
 - Limitation
-
     - experience
-
     - Hard predict cost and time 
-
     - Less docs
-
-  
-
-----------
-
+---
 ## Chapter 9
-
-  
-
 ### Architectural Design 
-
-  
-
 How software organized and designing structure, components and relationships
-
-  
-
-> Critical link between design and requirement
-
-  
-
+> ==Critical link between design and requirement==
 ### Representing Architectural Design  
-
-  
-
 - Block / Box-line Diagram: 
-
     - Abstract only for communicating / planning
-
     - Depends on use of architectural models
-
     - Lack semantic (type of relationship, properties)
-
-  
-
 Architectural Model : system as communicating components
-
-  
-
-> Early agile process for designing architecture, refactoring system architecture 
-
-are expensive 
-
-  
-
+> Early agile process for designing architecture, refactoring system architecture are expensive 
 ### Architectural abstraction
-
-  
-
 - Small: individual programs into components
-
 - Large: complex enterprise system including other systems
-
-  
-
-- Advantage of explicit architecture:
-
-    - Stakeholder communication 
-
+- Advantage of ==explicit architecture==:
+    - ==Stakeholder communication== 
         - To facilitate discussion about system design
-
         - To document complete architecture 
-
-    - System analysis (meet requirements or no)
-
-        - Design affects the characteristic of the system
-
-        (except for different types, same design process)
-
-    - Large-scale reuse 
-
+    - ==System analysis== (meet requirements or no)
+        - Design affects the characteristic of the system (except for different types, same design process)
+    - ==Large-scale reuse== 
         - Same domain, similar architecture (product lines, variants by patterns / styles) 
-
-  
-
-- Architecture characteristics:
-
+- Architecture characteristics: ==(P.S.S.A.M)==
     - Performance 
-
     - Security 
-
     - Safety
-
     - Availability 
-
     - Maintainability
-
-  
-
 ### Architectural Views
-
-  
-
-> Each model for each view, architectures can be documentted from these views
-
-  
-
-#### 4 + 1 view model
-
-  
-
+> Each model for each view, architectures can be documented from these views
+#### 4 + 1 view model ==(L.P.D.P)==
 - Logical view : abstractions in system (object / classes)
-
-- Process view : system interacting processess at run-time
-
+- Process view : system interacting processes at run-time
 - Development view : system decomposed for development
-
 - Physical view : hardware and software distributed
 
 - Scenarios 
-
-  
-
 ### Representing Architectural View 
-
-  
-
-- Unified Modeling Language (UML) is appropriate but doens't provide correct abstractions for high-level systems
-
-  
-
-- Architectural Description Languages (ADLs) but not widely used
-
-  
-
+- ==Unified Modeling Language== (UML) is appropriate but **doesn't provide correct abstractions for high-level systems**
+- ==Architectural Description Languages (ADLs) but not widely used==
 ### Architectural Patterns
-
-  
-
 Patterns : Representing, sharing and reusing knowledge 
-
-  
-
-Architectural pattern : description of tested design practise , reusing generic system architectures 
-
-  
-
+Architectural pattern : description of tested design practice , reusing generic system architectures 
 Using graphical or tabular descriptions 
-
-  
-
 #### Model-View-Controller (MVC)
-
-  
-
 - Description : separates presentation and interaction.
-
     - System divided into Model, View, and Controller
-
         - Model : manage data and operations 
-
         - View : how data presented to user 
-
         - Controller : manage user interaction and pass to View & Model
-
-  
-
 - Usage : multiple view and interact with data or unknown future requiremetns
-
-  
-
 - Advantage : 
-
     - data independent of representation vice versa
-
     - support presentation data in different ways, change respresent shows all
-
-  
-
 - Disadvantage : 
-
     - additional code and complexity 
-
-  
-
 - [ ] Check graph
-
     - Model, View, Controller 
-
-  
-
+  ![[Pasted image 20260610124654.png]]
 #### Layered Architecture 
-
-  
-
 - Description : organize system into layers by associated function  
-
     - provide service above as lowest layer as core service
-
-  
-
 - Advantages : 
-
     - allow modularity or replacement of layers 
-
     - Provide redundant service (authentication) in each layers for system dependability
-
-  
-
-- Disadvantages : 
-
+- Disadvantages :
     - difficult for clean separation
-
     - high layer may have to interact with lower
-
     - performance issue for processing each layer
-
-  
-
 - Usage : inteface sub-systems
-
-  
-
 - [ ] Check graph
-
+![[Pasted image 20260610124921.png]]
     - UI, UI management / authentication / authorization, application / utilities, system support (OS, database) 
-
-  
-
+    - 
 #### Repository Architecture 
-
-  
-
 - Description : central repo for all system components (only interact by repo) (data sharing)
-
     - Ways sub-systems exchange data:
-
         - central data at database and accessed by all 
-
         - each sub-system have its database and pass data to others
-
-  
-
 - Usage : large information to be stored or data-driven systems triggering tools / actions from repo
-
-  
-
 - Advantages : 
-
     - independent components 
-
     - data managed consistently in one place
-
 - Disadvantages : 
-
     - single point of failure 
-
     - inefficiency in communication via repo
-
     - difficult to distribute repo 
-
-  
-
-- [ ] Check graph
-
+![[Pasted image 20260610125113.png]]
+- [x] Check graph
     - parent node to all components 
-
-  
-
 #### Client-server architecture 
-
-  
-
 - Description : Functionality into services, each service delivered from a server
-
     - Distributed model (data, process distributed to components)
-
     - Can implement on single computer
-
     - Servers : provide specific services 
-
     - Clients : Users of services and access servers to use / call them services
-
     - Network : allows lients to access servers
-
-  
-
 - Usage : shared database access from multiple locations or variable system load (dividing tasks to servers)
-
-  
-
 - Advantages : 
-
     - Servers distributed over network
-
     - Functionality available to all clients 
-
     - Servers no need to implement all services
-
-  
-
 - Disadvantages : 
-
     - Each service as single point of failure (DoS, server fail)
-
     - Unpredicatable performance from network & system
-
     - Server management problems from different ownerships
-
-  
-
 - [ ] Check graph
-
-    - multiple client <-> internet <-> multiple server 
-
+![[Pasted image 20260610125532.png]]
+    - multiple client <-> internet <-> multiple server
 #### Pipe and Filter Architecture 
-
-  
-
 - Description : organize data processing into processing components (filter) for each data transformation. Data flows (pipe) inbetween filters 
-
-  
-
 - Usage : data processing (batch / transaction) in different stages 
-
-  
-
 - Advantages : 
-
     - easy to understand 
-
     - transformation reuse
-
     - workflow match business process
-
     - straightforward adding transformations
-
     - can be sequential or concurrent 
-
-  
-
 - Disadvantages : 
-
     - data format must be suitable between transformation
-
     - system overhead in transformations parse input and unparse output
-
     - no reuse if incompatible data structure 
-
     - not suitable for interactive systems 
-
-  
-
 - [ ] Check graph
-
+![[Pasted image 20260610131456.png]]
     - data pipeline 
-
-  
-
 ### Application Architecture  
-
-  
-
-- Definition : Meet organization need and common architecture in business reflecting requirements, to understand and compare applications in deisgn and reuse
-
-  
-
-- Generic application architecture : to configure and adapted to a system thtat meets specific requirements 
-
-  
-
+- Definition : Meet organization need and common architecture in business reflecting requirements, to understand and compare applications in design and reuse
+- Generic application architecture : to configure and adapted to a system that meets specific requirements 
 - Use of application architecture : 
-
-    - Design starting point / checklist, organizing dev work, assesing reuse, application types guide 
-
-  
-
+    - Design starting point / checklist, organizing dev work, assessing reuse, application types guide 
 - Software architecture graph : input > process (database) > output
-
-  
-
 #### Generic Application Architecture Types 
-
-  
-
 - Data processing 
-
     - Process data in batches with no interaction
-
 - Transaction processing  
-
     - Process user request and update database. Async request handled by transaction manager. Remotely access database by users
-
     - Transaction from users : sequence of operations for a goal (london to paris bitch)
-
     - I/O processing <-> Application logic <-> Transaction manager <-> Database
-
 - Event processing 
-
     - Actions on events from system environment
-
 - Language processing 
-
     - Process and interpret user formal language, carry out instruction within input. Include translator and abstract machine to execute output language
-
-  
-
 > Widely used are transaction (e-commerce & reservation system) and language (compilers, interpreters)
-
-  
-
-  
-
 ### Transaction Processing Systems 
 
   
 
 #### Information Systems Architecture 
-
-  
-
 - Definition : Generic architecture that can be layered 
-
 - Transaction-based systems as interactions, involving database interaction
-
 - Layered Information System Architecture:
-
     - User interface 
-
     - User communication 
-
     - Information Retrieval 
-
     - System database 
-
-  
-
 #### Web-based Information Systems
-
-  
-
 - Web-based system in UI implemented with web browser. 
-
 - ex: E-commerce system as internet-based orders 
-
-  
-
 #### Server Implementation
-
-  
-
 - Multi-tier client server/architectures systems
-
 - Web server for all user comms and UI with web browser
-
 - Application server : application-specific logic with info storage, retrieval
-
 - Database server : moves information between database and transaction management 
-
-  
-
-### Langauge Processing Systems 
-
-  
-
+### Language Processing Systems 
 Language as input and output other representation
-
-  
-
 - Interpreter to act on instructions from processing input 
-
 - Used in describing algorithm / data to solve problem
-
     - ex: tools descriptions, rules
-
-  
-
 - [ ] graph (kinda useless)
-
     - for ide: translator -> instructions -> interpreter -> 
-
-  
-
 #### Compiler Components
-
-  
-
 - Lexical analyzer : input language token and output internal form
-
 - Symbol table : info about entities in text 
-
 - Syntax analyzer : check syntax using syntax tree and symbol table
-
 - Syntax tree : internal program structure 
-
-  
-
 - [ ] graph (do i need to even study this???)
-
     - for ide: translator -> instructions -> interpreter ->
 
 
+---
+## Chapter 11 Reliable Programming
+### Software Product Quality Attributes (R.A.M.R.R.U.S)
+- Reliability
+    - Perform required function under stated conditions at specified time
+- Availability 
+    - Proportion of time system functional 
+- Maintainability  
+    - System can be updated, repaired, or enhanced
+- Resilience 
+    - Recover quickly from failures and keep operating
+- Responsiveness 
+    - Reacts to user input / changes
+- Usability
+    - Ease of use
+- Security 
+    - Against unauthorized access and data breach
+### Techniques for Reliability Improvement
+- Fault avoidance: best practise, code standard
+- Input validation
+- Failure management : less failure impact
+### Program Complexity
+- Coupling : how many dependencies exists between components
+    - High coupling : more complex harder to manage
+    - Low coupling : simpler and easier to maintain
+- Types of relationships
+    - Static : no change during execution
+    - Dynamic : change during execution, hard to track and manage 
+- Single Responsibitliy Principle (SRP) 
+    - Design each class to only have one reason to change 
+### Avoiding violations
+- Avoiding SRP violations
+    - Separate class
+- Avoid deeply nested if-then-else
+    - Guard clause (specific case early) 
+    - named constants 
+- Avoid deep inheritance
+### Design Pattern 
+Reusable solution to common software design problems
+- Types of design pattern
+    - Creational patterns
+        - create objects beyond language  
+    - Structural patterns
+        - organize and combine classes into reusable structure
+    - Behavioral patterns
+        - how objects communicate, interact with communication 
+### Refactoring
+Changing code to reduce complexity without changing external behavior 
+#### Code Smells
+> something may be wrong
+- large classes
+    - split into smaller one like SRP 
+- long methods / functions 
+    - split into smaller
+- duplicated code
+    - avoid code repetition, into single reusable instance
+- meaningless names
+    - use clear descriptive names
+- unused code
+    - remove it or comment 
+#### More on Input validation
+- Input validation
+    - User input is correctly formatted and within allowed range
+    - Methods for input validation:
+        - Built-in validation functions
+        - Type coercion functions
+        - Explicit comparisons
+            - list of allowed values to check
+        - Regular expressions
+- Regex : Way of defining patterns to match
+Usage of regex :
+- check validity of names
+- define pattern to match and reject if not
+### Failure Categories 
+- Data failures
+    - incorrect output computation
+- Timing failures 
+    - fail to respond in time. dependent on response
+- Program executions
+    - Normal continuation is impossible, halting execution
+- External service failure 
+    - check return code of called service 
+    - check validity of service call result 
+### Improving reliability 
+- Auto-save
+- Activity logging
+- Exception handling 
+- Failure effect minimization 
+    - recover work, persistent data, fail secure state 
+- Number Checking / input range checks
+    - Numeric inputs to check values (too large/small)
 
+
+---
+---
 # --- Tutorial ---
 # Chap 1
 1. What is meant by software development

@@ -61,3 +61,43 @@ A model for obtaining shared computing resources (processing, storage, network, 
 ## Cloud Data Center
 - Built around economies of scale, redundant power cooling subsystems, cabling, and strict physical security.
 - Virtualization: Uses physical host combines with a hypervisor to allocate resources dynamically to multiple virtual machines (VMs) running guest operating systems and applications.
+
+# Chapter 2
+## Case Study Background Company: Company A Online Survey Service
+- Overview: Company A runs a marketing campaign that collect customer feedback through a survey.
+- Workflow: 
+	- Respondent submit using mobile/laptop
+	- Application publish survey and validates
+	- Store response in database for further market analysis
+- Starting Problem:
+	- Slow provisioning srver
+	- Unpredictable traffic spickes
+	- Distributed users across differeent locations/devices
+	- Lack of usage visibility or failure recovery plans
+- Access & Operating Requirement
+	- Respondent: External users submitting responses via web forms from various locations.
+	- Marketing Staff: Authorized personnel creating surveys and analysis permitted respose data
+	- IT Team: A Small team supporting custom code while aiming to minimizer underlying OS maintenance.
+	- Service continuity: Requirement for system monitoring and a tested disaster recovery plan
+- Original Assumptions:
+	- Custom application logic
+	- fluctuating traffic, restricted data access
+	- No initial requirement for exclusive, community, or private cloud
+
+## NIST Framework: Service vs. Deployment Models
+NIST SP 800-145 describes cloud computing through three parts.
+- 5 essential characteristics:
+	- On-demand self-service
+	- broad network access
+	- resource pooling
+	- rapid elasticity
+	- measured device
+- 3 service models:
+	- IaaS
+	- PaaS
+	- SaaS
+- 4 Deployment models:
+	- Public: A cloud provisioned for use by the general public.
+	- Private: A cloud provisioned for exclusive use by one organization
+	- Community:: A cloud organizations with shared concerns.
+	- Hybrid: Distinct cloud environments connected to support data or application portability.
